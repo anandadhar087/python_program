@@ -1,5 +1,0 @@
-text = input("Enter text: ")
-letters = sum(c.isalpha() for c in text)
-digits = sum(c.isdigit() for c in text)
-spaces = sum(c.isspace() for c in text)
-print(f"Letters: {letters}, Digits: {digits}, Spaces: {spaces}")
